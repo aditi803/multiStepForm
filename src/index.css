@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  border: 1px solid gray;
+  box-shadow: 2px 2px black;
+  border-radius: 2rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
+  margin-top: 2rem;
+}
+.inputField{
+  width: 100%;
+}
+.center-stepper{
+  justify-content: center;
+}
+.stepProgressBar{
+  width: 20%;
+}
+
